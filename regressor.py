@@ -19,11 +19,11 @@ dataset_test.drop('id', axis=1, inplace=True)
 dataset = dataset.iloc[:, 1:]
 
 # Print first 5 rows of each column in training data
-# print('\nFirst five rows of dataset:', dataset.head(5))
-# print('\nDataset Shape: ', dataset.shape)
-# print('\nTesting Dataset Shape:', dataset_test.shape)
-# print('\nDataset Description:', dataset.describe())
-# print('\nDataset Skew', dataset.skew())
+print('\nFirst five rows of dataset:', dataset.head(5))
+print('\nDataset Shape: ', dataset.shape)
+print('\nTesting Dataset Shape:', dataset_test.shape)
+print('\nDataset Description:', dataset.describe())
+print('\nDataset Skew', dataset.skew())
 
 # Visualize Datasets (Violin Plots)
 split = 116  # range of features considered
@@ -42,3 +42,6 @@ for i in range(n_rows):
         sns.violinplot(y=cols[i * n_cols + j], data=dataset, ax=ax[j])
 # Display plot
 plt.show()
+
+
+# Data Transformation (Skew Correction)

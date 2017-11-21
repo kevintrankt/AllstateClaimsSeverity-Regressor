@@ -6,7 +6,7 @@ Allstate is currently developing automated methods of predicting the cost, and h
 This repository attempts to solve this problem by applying machine learning methodologies.
 
 See 
-- [Kaggle: Allstate Claims Severity](https://www.kaggle.com/c/allstate-claims-severity#evaluation)
+- [Kaggle: Allstate Claims Severity](https://www.kaggle.com/c/allstate-claims-severity)
 - [Exploratory study on ML algorithms](https://www.kaggle.com/sharmasanthosh/exploratory-study-on-ml-algorithms/notebook)
 
 ### Todo
@@ -14,3 +14,4 @@ See
  - Visualize Data
  - Model Creation
  - Make Predictions
+ - Redo Algorithm using Tensorflow DNNRegressor
